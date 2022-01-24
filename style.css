@@ -1,0 +1,25 @@
+button{
+    font-size: 20px;
+    background-color: azure;
+    width: 70px;
+    height: 55px;
+    border-radius:10px;
+}
+table{
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translate(-50%,-25%);
+}
+input{
+    font-size: 24px;
+    width: 285px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 5px;
+}
+h1{
+    text-align: center;
+}
