@@ -45,7 +45,7 @@ logButton.addEventListener('click', function () {
     if (!isNaN(logValue)) {
         screen.value = logValue;
     }
-    else{
+    else {
         alert("Enter valid log expression");
     }
 })
@@ -68,7 +68,15 @@ factButton.addEventListener('click', function () {
     }
 
 })
+function clickThis(butt) {
+    butt.click();
+}
 
-document.addEventListener('keypress',function(){
-    screen.focus();
+document.addEventListener('keypress', function (e) {
+    if (e.key == "=" || e.key == "Enter") {
+        ans.click();
+    }
+    else {
+        screen.focus();
+    }
 })

@@ -4,11 +4,13 @@ button {
   height: 55px;
   background-color: lightblue;
   border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
 }
 input {
   font-size: 24px;
   width: 285px;
   border-radius: 10px;
+  border: 1px black solid ;
   background-color: rgb(202, 220, 226);
 }
 table {
@@ -24,6 +26,7 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
+  
 }
 body{
     display: block;
