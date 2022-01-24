@@ -68,3 +68,7 @@ factButton.addEventListener('click', function () {
     }
 
 })
+
+document.addEventListener('keypress',function(){
+    screen.focus();
+})

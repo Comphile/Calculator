@@ -1,25 +1,36 @@
-button{
-    font-size: 20px;
-    background-color: azure;
-    width: 70px;
-    height: 55px;
-    border-radius:10px;
+button {
+  font-size: 20px;
+  width: 70px;
+  height: 55px;
+  background-color: lightblue;
+  border-radius: 10px;
 }
-table{
-    position: absolute;
-    left: 50%;
-    bottom: 30%;
-    transform: translate(-50%,-25%);
+input {
+  font-size: 24px;
+  width: 285px;
+  border-radius: 10px;
+  background-color: rgb(202, 220, 226);
 }
-input{
-    font-size: 24px;
-    width: 285px;
-    border-radius: 10px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,0);
-    padding: 5px;
+table {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+}
+.inputBox {
+  width: 285px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+body{
+    display: block;
+    height: 100%;
+    background:url(./img/background.png);
+    background-position: center;
+    background-size:1990px;
+    background-repeat: no-repeat;
+    
 }
